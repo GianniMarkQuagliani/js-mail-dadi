@@ -23,4 +23,8 @@ const giocaDadiBtn = document.getElementById('giocaDadiBtn');
 //Dichiarazione di un elemento DOM che rappresenta il risultato del gioco dei dadi.
 const risultatoDadi = document.getElementById('risultatoDadi');
 //Aggiungere un event listener al pulsante "Gioca ai Dadi" per gestire il clic
-giocaDadiBtn.addEventListener('click', function () {});
+giocaDadiBtn.addEventListener('click', function () {
+    //Generare un numero causale da 1 a 6 per il giocatore
+    const punteggioGiocatore = Math.floor(Math.random() * 6) + 1;
+    console.log(punteggioGiocatore);
+});
