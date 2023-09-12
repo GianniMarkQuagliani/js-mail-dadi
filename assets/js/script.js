@@ -20,3 +20,5 @@ verificaEmailBtn.addEventListener('click', function () {
 
 //Assegnare il pulsante "Gioca ai Dadi" a una variabile
 const giocaDadiBtn = document.getElementById('giocaDadiBtn');
+//.
+const risultatoDadi = document.getElementById('risultatoDadi');
