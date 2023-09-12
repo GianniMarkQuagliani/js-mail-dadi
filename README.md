@@ -13,7 +13,6 @@
 # Creare un arrey di email consentite
 # Assegnare il pulsante  "Verifica Email" a una variabile
 # Aggiungere un event listener al pulsante  "Verifica Email" per gestire il clic
-# Chiedere all'utente di inserire la sua email
 # Verificare se l'email dell'utente è nella lista delle email consentite, poi stampare "Accesso consentito. Benvenuto!", altrimenti stampare "Accesso negato. La tua email non è autorizzata."
 
 # Gioco dei dadi
